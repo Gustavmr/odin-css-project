@@ -82,33 +82,47 @@ body {
 /* Gallery Section */
 .container-gallery {
     background-color: white;
+    padding-bottom: 150px;
 }
 
 .gallery-title {
     color: #1f2937;
     font-size: 36px;
+    margin: 50px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .gallery-main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .gallery-item {
+    width: 200px;
+
 }
 
 .gallery-image {
+    border: 3px;
     border-color: #3882f6;
+    border-style: solid;
     border-radius: 5px;
+    height: 200px;
+    width: 200px;
 }
 
 .gallery-text {
     color: #1f2937;
     font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* quote section */
 .container-quote {
-
+    background-color: #e5e7eb;
 }
 
 .quote-text {
