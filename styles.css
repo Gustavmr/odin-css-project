@@ -21,6 +21,10 @@ body {
 /* Header */
 .header{
     background-color: #1f2937;
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -31,11 +35,17 @@ body {
 .header-list {
     color: #e5e7eb;
     font-size: 18px;
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Blue Section */
 .container-blue {
     background-color: #1f2937;
+    padding: 150px 200px;
+    display: flex;
 }
 
 .blue-left {
