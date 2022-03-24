@@ -1,7 +1,12 @@
 /* general */
-.sign-up {
+button {
     background-color: #3882f6;
     border-radius: 3px;
+    border-width: 0px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
 }
 
 ul {
@@ -49,6 +54,7 @@ body {
 }
 
 .blue-left {
+    flex: 1;
 }
 
 .blue-title {
@@ -66,6 +72,11 @@ body {
 .blue-image {
     background-color: darkgray;
     color:#e5e7eb;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Gallery Section */
