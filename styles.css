@@ -23,6 +23,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+button.sign-up {
+    border: 3px solid #e5e7eb ;
+}
+
 /* Header */
 .header{
     background-color: #1f2937;
@@ -123,6 +127,11 @@ body {
 /* quote section */
 .container-quote {
     background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote-text {
@@ -130,25 +139,36 @@ body {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    width: 800px;
+    text-align: left;
 }
 .quote-author {
     color: #1f2937;
     font-size: 36px;
     font-weight: bold;
+    width: 800px;
+    text-align: right;
 }
 
 /* action section */
 .container-action {
-
+    background-color: white;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action-box {
     background-color: #3882f6;
-    border-radius: 3px;
+    border-radius: 5px;
+    flex: 1;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .action-content {
-
 }
 
 .action-title {
@@ -166,4 +186,6 @@ body {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    text-align: center;
+    padding: 50px;
 }
